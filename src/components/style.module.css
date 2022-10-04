@@ -1,0 +1,85 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+.applink{
+    font-size: 2rem;
+    position: absolute;
+     right: 10px;
+     color: white;
+     background-color: black;
+     padding: 15px;
+     border-radius: 0 0 40px 40px;
+     cursor: pointer;
+}
+.colorBar{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1%;
+    width: 200px;
+    position: absolute;
+    flex-direction: column;
+}
+.colorBar>input{
+    border: none;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.fotterCopy{
+    text-align: center;
+    margin-left: 50px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.rangeContainer{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+}
+.rangeContainer>input{
+    margin: 30px;
+}
+.checkBoxRange{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkBoxRange{
+    background-color: aliceblue;
+}
+
+.boxContainer{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+/**box*/
+.boxContainer{
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+}
